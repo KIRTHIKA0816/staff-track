@@ -12,7 +12,12 @@ from datetime import datetime
 
 app = Flask(__name__)
 CORS(app)
-
+@app.route("/")
+def home():
+    return jsonify({
+        "message": "StaffTrack Backend is running!",
+        "status": "OK"
+    })
 # ── in-memory data store (replace with a real DB in production) ───────────────
 
 staff_db = [
