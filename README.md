@@ -1,49 +1,56 @@
-# StaffTrack — Full-Stack Project
+# Staff Track
 
-## Structure
-```
-stafftrack_project/
-├── frontend/
-│   └── StaffTrack_v2_preview.jsx   # React frontend
-├── backend/
-│   ├── app.py                      # Flask API
-│   └── requirements.txt
-└── README.md
-```
+A full-stack Staff Management System developed using React.js and Python Flask.
 
-## Quick Start
+## Features
+- Secure Staff Login
+- Dashboard
+- Add Staff
+- View Staff Details
+- Update Staff Information
+- Delete Staff Records
+- Search Staff
+- Responsive User Interface
 
-### Backend (Python / Flask)
-```bash
-cd backend
-pip install -r requirements.txt
-python app.py
-# API running at http://localhost:5000
-```
+## Technologies Used
 
-### Frontend (React)
-Drop `StaffTrack_v2_preview.jsx` into your Vite / CRA project, or
-open it in the Claude Artifacts viewer.
+### Frontend
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
 
-## API Endpoints
+### Backend
+- Python
+- Flask
 
-| Method | Route                  | Description           |
-|--------|------------------------|-----------------------|
-| POST   | /api/login             | Authenticate user     |
-| GET    | /api/staff             | List staff (filterable)|
-| GET    | /api/staff/<id>        | Get one staff member  |
-| POST   | /api/staff             | Create staff member   |
-| PUT    | /api/staff/<id>        | Update staff member   |
-| DELETE | /api/staff/<id>        | Delete staff member   |
-| GET    | /api/stats             | Dept & status stats   |
+## Project Structure
+...
 
-## Query Parameters (GET /api/staff)
-- `department` — filter by department (e.g. Engineering)
-- `status`     — filter by status (Active | On Leave | Inactive)
-- `q`          — full-text search on name / email / job title
+## Installation
+...
 
-## Default Credentials
-| Username | Password  | Role  |
-|----------|-----------|-------|
-| admin    | admin123  | Admin |
-| staff    | staff123  | Staff |
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/home.png)
+
+### Dashboard
+![Dashboard](add employees.png)
+
+### Staff List
+![Staff List](employee list.png)
+
+### Add Staff
+![Add Staff](screenshots/add-staff.png)
+
+## Author
+
+**Kirthika S**
+
+B.Sc Computer Science Student
+
+## GitHub
+
+https://github.com/KIRTHIKA0816/staff-track
