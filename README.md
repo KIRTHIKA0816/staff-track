@@ -33,17 +33,19 @@ A full-stack Staff Management System developed using React.js and Python Flask.
 
 ## Screenshots
 
-### Login Page
-![Login Page](screenshots/home.png)
+### Home Page
 
-### Dashboard
-![Dashboard](add employees.png)
+![Home Page](home.png)
 
-### Staff List
-![Staff List](employee list.png)
+### Employee List
 
-### Add Staff
-![Add Staff](screenshots/add-staff.png)
+![Employee List](employee%20list.png)
+
+### Add Employee
+
+![Add Employee](add%20employees.png)
+
+
 
 ## Author
 
