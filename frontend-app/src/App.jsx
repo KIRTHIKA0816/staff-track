@@ -6,7 +6,7 @@ function getPhotos(){try{return JSON.parse(localStorage.getItem(PHOTO_KEY)||"{}"
 function savePhoto(id,url){const p=getPhotos();p[id]=url;localStorage.setItem(PHOTO_KEY,JSON.stringify(p));}
 function getPhoto(id){return getPhotos()[id]||null;}
 
-const API = "http://127.0.0.1:5000/api";
+const API = "https://staff-track-2.onrender.com/api";
 
 const DEPT_COLORS={Engineering:"#3b82f6",Design:"#8b5cf6",Marketing:"#f59e0b",HR:"#10b981",Finance:"#06b6d4",Sales:"#ec4899",Product:"#6366f1",Analytics:"#14b8a6"};
 const STATUS_STYLE={Active:{bg:"#052e16",color:"#4ade80",dot:"#22c55e"},"On Leave":{bg:"#451a03",color:"#fb923c",dot:"#f97316"},Inactive:{bg:"#450a0a",color:"#f87171",dot:"#ef4444"}};
